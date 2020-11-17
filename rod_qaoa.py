@@ -367,7 +367,5 @@ if __name__ == "__main__":
     # 3 Layers: (0.953, 0.767, 0.766); 4 Layers: (0.956, 0.767, 0.766)
     # 5 Layers: (0.956, 0.767, 0.766)
 
-    #circuit = PowerIteration(4, 3, "Powell", "individual")
-    #circuit.analyze()
-    sim = Simulation(4, "Powell", "individual")
-    sim.graph()
+    circuit = PowerIteration(4, 3, "Powell", "individual")
+    circuit.analyze()
